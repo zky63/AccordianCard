@@ -3,6 +3,7 @@ body {
     width: 100vw;
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
     background-size: 100%;
+    overflow-y: hidden;
 }
 
 .mainContainer {
@@ -37,8 +38,8 @@ body {
 
 .cubeImage {
     position: fixed;
-    margin-top: 175px;
-    margin-left: -120px;
+    margin-top: 210px;
+    margin-left: -96px;
     z-index: 3;
 }
 
@@ -149,8 +150,8 @@ hr {
     .cubeImage {
         position: fixed;
         width: 75px;
-        margin-top: -60px;
-        margin-left: 20px;
+        margin-top: -27px;
+        margin-left: 45px;
         
         z-index: 3;
     }
@@ -182,7 +183,7 @@ hr {
     }
 
     .icon {
-        width: 20px;
+        width: 30px;
     }
 }
 
