@@ -1,8 +1,8 @@
 const button = document.getElementsByClassName("accordianContainer__button");
-const icon = document.getElementsByClassName("icon");
+
 let i;
 
-console.log(icon);
+
 
 for(i = 0; i<button.length; i++){
     button[i].addEventListener('click', function(){
@@ -15,6 +15,14 @@ for(i = 0; i<button.length; i++){
         else {
             panel.style.display = "block";
         }
+        let icon = this.childNodes;
+        if(!(icon[1].style.transform)){
+            icon[1].style.transform = 'rotate(180deg)';
+        }
+        else if(icon[1].style.transform = 'rotate(180deg)'){
+            icon[1].style.transform = '';
+        }
     })
 }
+
 
